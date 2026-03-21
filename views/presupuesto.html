@@ -21,7 +21,7 @@
 
 <h2>Solicitar presupuesto</h2>
 
-<form>
+<form id="formulario">
 
     <label>Nombre:</label>
     <input type="text" required>
@@ -41,27 +41,31 @@
     <input type="number" min="1" required>
 
     <label>
-        <input type="checkbox" required>
+        <input type="checkbox" id="privacidad" required>
         Acepto la política de privacidad
     </label>
 
     <button type="submit">Enviar</button>
 
-    <form onsubmit="mostrarMensaje(event)">
-
 </form>
-    
+
+<!-- MENSAJE -->
 <p id="mensaje-exito">
     Sus datos han sido enviados correctamente
 </p>
-    
-<script>
-function mostrarMensaje(event) {
-    event.preventDefault(); // evita que la página se recargue
 
+<script>
+document.getElementById("formulario").addEventListener("submit", function(event) {
+
+    event.preventDefault(); // evita recarga
+
+    // mostrar mensaje
     document.getElementById("mensaje-exito").style.display = "block";
-}
-    
+
+    // limpiar formulario
+    this.reset();
+});
 </script>
+
 </body>
 </html>
