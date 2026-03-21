@@ -46,6 +46,14 @@
 <p id="mensaje-exito" style="display:none; color: green;">
     Sus datos han sido enviados correctamente
 </p>
+    
+<script>
+function mostrarMensaje(event) {
+    event.preventDefault(); // evita que la página se recargue
 
+    document.getElementById("mensaje-exito").style.display = "block";
+}
+    
+</script>
 </body>
 </html>
