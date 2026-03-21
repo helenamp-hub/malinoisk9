@@ -72,15 +72,6 @@ main {
 .info {
     max-width: 500px;
 }
- /* PRUEBA */
-.formulario {
-    display: flex;
-    flex-direction: column; /* uno debajo de otro */
-    align-items: center; /* centra horizontalmente */
-    text-align: center; /* centra el texto */
-    gap: 20px;
-    padding: 20px;
-}
 
 .mapa {
     width: 100%;
