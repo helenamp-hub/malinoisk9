@@ -6,36 +6,40 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+
 <header>
     <h1>MalinoisK9</h1>
-    <nav>
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="productos.html">Entrenamiento</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-            <li><a href="presupuesto.html">Presupuesto</a></li>
-        </ul>
-    </nav>
 </header>
-    
-    <h2>Solicitar presupuesto</h2>
 
-    <form>
-        <label>Nombre:</label>
-        <input type="text">
+<h2>Solicitar presupuesto</h2>
 
-        <label>Tipo de entrenamiento:</label>
-        <select>
-            <option>Básico</option>
-            <option>Avanzado</option>
-            <option>Protección</option>
-        </select>
-    
-        <label>Días de entrenamiento:</label>
-        <input type="number">
-    
-        <button type="submit">Calcular</button>
-    </form>
+<form>
+
+    <label>Nombre:</label>
+    <input type="text" required>
+
+    <label>Email:</label>
+    <input type="email" required>
+
+    <label>Tipo de entrenamiento:</label>
+    <select required>
+        <option value="">-- Selecciona una opción --</option>
+        <option>Básico</option>
+        <option>Avanzado</option>
+        <option>Protección</option>
+    </select>
+
+    <label>Días de entrenamiento:</label>
+    <input type="number" min="1" required>
+
+    <label>
+        <input type="checkbox" required>
+        Acepto la política de privacidad
+    </label>
+
+    <button type="submit">Enviar</button>
+
+</form>
 
 </body>
 </html>
