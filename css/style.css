@@ -58,7 +58,9 @@ main {
 
 .contacto {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column; /* uno debajo de otro */
+    align-items: center; /* centra horizontalmente */
+    text-align: center; /* centra el texto */
     gap: 20px;
     padding: 20px;
 }
@@ -69,6 +71,6 @@ main {
 }
 
 .mapa {
-    flex: 1;
-    min-width: 250px;
+    width: 100%;
+    max-width: 600px;
 }
