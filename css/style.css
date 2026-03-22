@@ -88,3 +88,9 @@ main {
     max-width: 400px;
     margin: 0 auto; /* centra el bloque */
 }
+#formulario input,
+#formulario select,
+#formulario button {
+    width: 100%;
+    max-width: 300px;
+}
