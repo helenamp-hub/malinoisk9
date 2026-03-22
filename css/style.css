@@ -77,3 +77,14 @@ main {
     width: 100%;
     max-width: 600px;
 }
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centra horizontalmente */
+    gap: 10px;
+}
+#formulario {
+    max-width: 400px;
+    margin: 0 auto; /* centra el bloque */
+}
