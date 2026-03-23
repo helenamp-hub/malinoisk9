@@ -28,7 +28,12 @@ body {
     color: #D2B48C;
     text-decoration: none;
 }
-
+ /*PRUEBA SUBRAYADO EN MENU*/
+.menu a.active {
+    color: #6B8E23;
+    border-bottom: 2px solid #6B8E23;
+}
+/**/
 .menu a:hover {
     color: #6B8E23;
 }
