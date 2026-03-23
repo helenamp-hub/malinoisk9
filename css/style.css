@@ -46,7 +46,7 @@ h1, h2 {
     background-repeat: no-repeat;
 
     height: 600px; /* altura de la sección */
-    padding: 150px 20px;
+    padding: 100px 20px;
     
     display: flex;
     flex-direction: column;
