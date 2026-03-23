@@ -106,14 +106,6 @@ main {
 }
 
 /* LOGO IZQUIERDA */
-.logo {
-    position: absolute;
-    left: 20px;
-}
-
-.logo images {
-    height: 60px;
-}
 
 /* MENÚ CENTRADO */
 .menu ul {
