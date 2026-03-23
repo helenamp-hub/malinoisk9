@@ -107,10 +107,10 @@ h1, h2 {
     position: absolute;
     left: 15px;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-30%);
 }
 
 /* TAMAÑO LOGO */
 .logo img {
-    height: 40px; /* 👈 aquí controlas el tamaño */
+    height: 60px; /* 👈 aquí controlas el tamaño */
 }
