@@ -40,9 +40,20 @@ h1, h2 {
 
 /* HERO */
 .hero {
-    background-color: #6B8E23;
-    padding: 80px;
+    background-image: url("../images/entrenamientok9.png");
+    background-size: cover; /* ocupa todo */
+    background-position: center; /* centrada */
+    background-repeat: no-repeat;
+
+    height: 400px; /* altura de la sección */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centra vertical */
+    align-items: center; /* centra horizontal */
+
     text-align: center;
+    color: white;
 }
 
 /* GRID */
