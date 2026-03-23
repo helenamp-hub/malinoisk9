@@ -45,7 +45,7 @@ h1, h2 {
     background-position: center; /* centrada */
     background-repeat: no-repeat;
 
-    height: 1000px; /* altura de la sección */
+    height: 850px; /* altura de la sección */
     padding: 150px 20px;
     
     display: flex;
