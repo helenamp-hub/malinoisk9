@@ -110,18 +110,7 @@ h1, h2 {
     transform: translateY(-50%);
 }
 
+/* TAMAÑO LOGO */
 .logo img {
-    height: 40px;
-}
-
-/* MENÚ */
-.menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.menu li {
-    display: inline;
-    margin: 0 15px;
+    height: 40px; /* 👈 aquí controlas el tamaño */
 }
