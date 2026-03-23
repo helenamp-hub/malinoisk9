@@ -24,6 +24,13 @@ body {
     margin: 0 15px;
 }
 
+/* ENLACE ACTIVO SUBRAYADO PRUEBA*/
+.menu a.active {
+    color: #6B8E23; /* verde militar */
+    border-bottom: 2px solid #6B8E23;
+    padding-bottom: 3px;
+}
+
 .menu a {
     color: #D2B48C;
     text-decoration: none;
