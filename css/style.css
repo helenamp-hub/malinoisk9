@@ -112,5 +112,5 @@ h1, h2 {
 
 /* TAMAÑO LOGO */
 .logo img {
-    height: 80px; /* 👈 aquí controlas el tamaño */
+    height: 100px; /* 👈 aquí controlas el tamaño */
 }
