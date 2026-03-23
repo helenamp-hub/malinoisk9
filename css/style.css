@@ -107,7 +107,7 @@ h1, h2 {
     position: absolute;
     left: 5px;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-5%);
 }
 
 /* TAMAÑO LOGO */
