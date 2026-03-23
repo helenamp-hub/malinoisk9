@@ -8,7 +8,6 @@
 <body>
 
 <header class="header">
-
     <nav class="menu">
         <ul>
             <li><a href="../index.html">Inicio</a></li>
@@ -17,32 +16,26 @@
             <li><a href="presupuesto.html">Presupuesto</a></li>
         </ul>
     </nav>
-
 </header>
 
-<h2>Solicitar presupuesto</h2>
+<h1>Solicitar presupuesto</h1>
 
 <form id="formulario">
 
-    <label>Nombre:</label>
-    <input type="text" required>
+    <input type="text" placeholder="Nombre" required>
+    <input type="email" placeholder="Email" required>
 
-    <label>Email:</label>
-    <input type="email" required>
-
-    <label>Tipo de entrenamiento:</label>
     <select required>
-        <option value="">-- Selecciona una opción --</option>
+        <option value="">Tipo de entrenamiento</option>
         <option>Básico</option>
         <option>Avanzado</option>
         <option>Protección</option>
     </select>
 
-    <label>Días de entrenamiento:</label>
-    <input type="number" min="1" required>
+    <input type="number" placeholder="Días" min="1" required>
 
     <label>
-        <input type="checkbox" id="privacidad" required>
+        <input type="checkbox" required>
         Acepto la política de privacidad
     </label>
 
@@ -50,20 +43,12 @@
 
 </form>
 
-<!-- MENSAJE -->
-<p id="mensaje-exito">
-    Sus datos han sido enviados correctamente
-</p>
+<p id="mensaje-exito">Sus datos han sido enviados correctamente</p>
 
 <script>
 document.getElementById("formulario").addEventListener("submit", function(event) {
-
-    event.preventDefault(); // evita recarga
-
-    // mostrar mensaje
+    event.preventDefault();
     document.getElementById("mensaje-exito").style.display = "block";
-
-    // limpiar formulario
     this.reset();
 });
 </script>
