@@ -94,3 +94,34 @@ h1, h2 {
     color: green;
     text-align: center;
 }
+/* HEADER */
+.header {
+    position: relative;
+    background-color: #5C4033;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* LOGO IZQUIERDA */
+.logo {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.logo img {
+    height: 40px;
+}
+
+/* MENÚ */
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 15px;
+}
