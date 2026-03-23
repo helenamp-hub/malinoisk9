@@ -105,9 +105,9 @@ h1, h2 {
 /* LOGO IZQUIERDA */
 .logo {
     position: absolute;
-    left: 5px;
+    left: 30px;
     top: 50%;
-    transform: translateY(-50%) translateX(0%);
+    transform: translateY(-50%);
 }
 
 /* TAMAÑO LOGO */
