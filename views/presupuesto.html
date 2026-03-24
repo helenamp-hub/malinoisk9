@@ -8,74 +8,74 @@
 </head>
 <body>
 
-<header class="header">
+    <header class="header">
 
-    <div class="logo">
-        <img src="../images/logok9.png" alt="Logo MalinoisK9">
-    </div>
+        <div class="logo">
+            <img src="../images/logok9.png" alt="Logo MalinoisK9">
+        </div>
 
-    <nav class="menu">
-         <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="productos.html">Entrenamiento</a></li>
-            <li><a href="presupuesto.html"class="active">Presupuesto</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
+        <nav class="menu">
+             <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="productos.html">Entrenamiento</a></li>
+                <li><a href="presupuesto.html"class="active">Presupuesto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             
-        </ul>
-    </nav>
+            </ul>
+        </nav>
 
-</header>
+    </header>
 
-<h1>Solicitar presupuesto</h1>
+    <h1>Solicitar presupuesto</h1>
 
-<form id="formulario">
+    <form id="formulario">
 
-    <input type="text" placeholder="Nombre" required>
-    <input type="email" placeholder="Email" required>
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Email" required>
 
-    <select required>
-        <option value="">Tipo de entrenamiento</option>
-        <option>Básico</option>
-        <option>Avanzado</option>
-        <option>Protección</option>
-    </select>
+        <select required>
+            <option value="">Tipo de entrenamiento</option>
+            <option>Básico</option>
+            <option>Avanzado</option>
+            <option>Protección</option>
+        </select>
 
-    <input type="number" placeholder="Días" min="1" required>
+        <input type="number" placeholder="Días" min="1" required>
 
-    <label>
-        <input type="checkbox" required>
-        Acepto la política de privacidad
-    </label>
+        <label>
+            <input type="checkbox" required>
+            Acepto la política de privacidad
+        </label>
 
-    <button type="submit">Enviar</button>
+        <button type="submit">Enviar</button>
 
-</form>
+    </form>
 
-<p id="mensaje-exito">Sus datos han sido enviados correctamente</p>
+    <p id="mensaje-exito">Sus datos han sido enviados correctamente</p>
 
-<script>
-document.getElementById("formulario").addEventListener("submit", function(event) {
-    event.preventDefault();
-    document.getElementById("mensaje-exito").style.display = "block";
-    this.reset();
-});
-</script>
-<footer class="footer">
+    <script>
+        document.getElementById("formulario").addEventListener("submit", function(event) {
+        event.preventDefault();
+        document.getElementById("mensaje-exito").style.display = "block";
+        this.reset();
+        });
+    </script>
+    <footer class="footer">
 
-    <!-- REDES SOCIALES -->
-   <div class="redes">
-    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-   </div>
+        <!-- REDES SOCIALES -->
+       <div class="redes">
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+       </div>
 
-    <!-- DIRECCIÓN -->
-    <p>📍 Sevilla, España</p>
+        <!-- DIRECCIÓN -->
+        <p>📍 Sevilla, España</p>
 
-    <!-- AVISO LEGAL -->
-    <a href="https://www.conprueba.es/aviso-legal" target="_blank" >
-    Aviso legal
-</a>
-</footer>
+        <!-- AVISO LEGAL -->
+        <a href="https://www.conprueba.es/aviso-legal" target="_blank" >
+        Aviso legal
+        </a>
+    </footer>
 </body>
 </html>
