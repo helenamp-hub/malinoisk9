@@ -163,3 +163,13 @@ h1, h2 {
 .footer a:hover {
     color: #6B8E23;
 }
+
+.quienes {
+    text-align: center;
+}
+
+.texto {
+    max-width: 800px; /* limita el ancho */
+    margin: 0 auto; /* centra el bloque */
+    line-height: 1.6; /* mejora lectura */
+}
