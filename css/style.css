@@ -203,3 +203,9 @@ h1, h2 {
     margin-top: 10px;
     color: white;
 }
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* 👈 controla la separación */
+}
