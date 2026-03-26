@@ -201,4 +201,5 @@ h1, h2 {
     list-style-type: circle; /* 👈 esto es lo que te piden */
     text-align: left; /* mejor lectura */
     margin-top: 10px;
+    color: white;
 }
