@@ -195,3 +195,10 @@ h1, h2 {
     line-height: 1.6; 
     color: white;
 }
+
+/* LISTA ENTRENAMIENTO BASICO */
+.lista-basica {
+    list-style-type: circle; /* 👈 esto es lo que te piden */
+    text-align: left; /* mejor lectura */
+    margin-top: 10px;
+}
