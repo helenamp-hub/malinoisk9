@@ -185,7 +185,9 @@ h1, h2 {
 
 .secciontexto {
     text-align: center;
+    color: #6B8E23;
 }
+
 /* TEXTO GENERAL*/
 .texto {
     max-width: 800px; 
