@@ -1,3 +1,4 @@
+/* CUERPO */
 body {
     font-family: Georgia;
     margin: 0;
@@ -24,12 +25,11 @@ body {
     margin: 0 15px;
 }
 
-/* ENLACE ACTIVO SUBRAYADO PRUEBA*/
+/* SUBRAYAR PAGINA DEL MENU EN LA QUE SE ENCUENTRA */
 .menu a.active {
     color: #6B8E23;
     border-bottom: 2px solid #6B8E23;
 }
-/**/
 
 .menu a {
     color: #D2B48C;
@@ -45,34 +45,36 @@ h1, h2 {
     text-align: center;
 }
 
-/* IMAGEN ENTRENAMIENTO*/
+/* PRODUCTO - IMAGEN ENTRENAMIENTO*/
 .titulo {
     background-image: url("../images/entrenamientok9.png");
-    background-size: cover; /* ocupa todo */
-    background-position: center; /* centrada */
+    background-size: cover; 
+    background-position: center; 
     background-repeat: no-repeat;
 
-    height: 600px; /* altura de la sección */
+    height: 600px; 
     padding: 100px 20px;
     
     display: flex;
     flex-direction: column;
-    justify-content: center; /* centra vertical */
-    align-items: center; /* centra horizontal */
+    justify-content: center; 
+    align-items: center; 
 
     text-align: center;
     color: white;
 }
+
 .bloque img {
     width: 300px;
     height: 200px;
-    object-fit: cover; /* recorta sin deformar */
+    object-fit: cover; 
     border-radius: 10px;
 }
+
 .bloque {
     display: flex;
-    flex-direction: column; /* uno encima de otro */
-    align-items: center; /* centra horizontal */
+    flex-direction: column; 
+    align-items: center; 
     text-align: center;
     gap: 15px;
 }
@@ -124,12 +126,13 @@ h1, h2 {
     padding: 8px;
 }
 
+/* MENSAJE CUANDO HAN SIDO ENVIADOS LOS DATOS */
 #mensaje-exito {
     display: none;
     color: green;
     text-align: center;
 }
-/* HEADER */
+/* HEADER - BARRA DEL MENU */
 .header {
     position: relative;
     background-color: #5C4033;
@@ -137,7 +140,7 @@ h1, h2 {
     text-align: center;
 }
 
-/* LOGO IZQUIERDA */
+/* LOGO DEL MENU */
 .logo {
     position: absolute;
     left: 500px;
@@ -145,12 +148,12 @@ h1, h2 {
     transform: translateY(-50%);
 }
 
-/* TAMAÑO LOGO */
+/* TAMAÑO DEL LOGO */
 .logo img {
     height: 100px; /* 👈 aquí controlas el tamaño */
 }
 
-/* FOOTER */
+/* PIE DE SECCION */
 .footer {
     background-color: #5C4033; /* marrón */
     color: #F5F5F5;
@@ -159,7 +162,7 @@ h1, h2 {
     margin-top: 30px;
 }
 
-/* REDES */
+/* RRSS DEL PIE DE SECCION */
 .redes {
     margin-bottom: 10px;
 }
@@ -170,7 +173,7 @@ h1, h2 {
     text-decoration: none;
 }
 
-/* AVISO LEGAL */
+/* AVISO LEGAL DEL PIE DE SECCION */
 .footer a {
     color: #D2B48C;
     text-decoration: none;
@@ -185,7 +188,7 @@ h1, h2 {
 }
 
 .texto {
-    max-width: 800px; /* limita el ancho */
-    margin: 0 auto; /* centra el bloque */
-    line-height: 1.6; /* mejora lectura */
+    max-width: 800px; 
+    margin: 0 auto; 
+    line-height: 1.6; 
 }
