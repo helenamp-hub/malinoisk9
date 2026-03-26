@@ -37,7 +37,7 @@ body {
 }
 
 .menu a:hover {
-    color: #6B8E23;
+    color: #6B8E23; /* VERDE */
 }
 
 /* TÍTULOS */
@@ -135,7 +135,7 @@ h1, h2 {
 /* HEADER - BARRA DEL MENU */
 .header {
     position: relative;
-    background-color: #5C4033;
+    background-color: #5C4033; /* MARRON */
     padding: 30px 0;
     text-align: center;
 }
@@ -150,12 +150,12 @@ h1, h2 {
 
 /* TAMAÑO DEL LOGO */
 .logo img {
-    height: 100px; /* 👈 aquí controlas el tamaño */
+    height: 100px; 
 }
 
 /* PIE DE SECCION */
 .footer {
-    background-color: #5C4033; /* marrón */
+    background-color: #5C4033; /* MARRON */
     color: #F5F5F5;
     text-align: center;
     padding: 20px;
@@ -185,6 +185,7 @@ h1, h2 {
 
 .secciontexto {
     text-align: center;
+    color: #5C4033;
 }
 
 /* TEXTO GENERAL*/
@@ -192,4 +193,5 @@ h1, h2 {
     max-width: 800px; 
     margin: 0 auto; 
     line-height: 1.6; 
+    color: white;
 }
