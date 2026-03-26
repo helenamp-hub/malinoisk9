@@ -69,6 +69,13 @@ h1, h2 {
     object-fit: cover; /* recorta sin deformar */
     border-radius: 10px;
 }
+.bloque {
+    display: flex;
+    flex-direction: column; /* uno encima de otro */
+    align-items: center; /* centra horizontal */
+    text-align: center;
+    gap: 15px;
+}
 
 /* GRID */
 .grid {
