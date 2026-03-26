@@ -37,7 +37,7 @@ body {
 }
 
 .menu a:hover {
-    color: #6B8E23; /* MARRON */
+    color: #6B8E23; /* VERDE */
 }
 
 /* TÍTULOS */
@@ -180,12 +180,12 @@ h1, h2 {
 }
 
 .footer a:hover {
-    color: #6B8E23;
+    color: #6B8E23; /*VERDE*/
 }
 
 .secciontexto {
     text-align: center;
-    color: #5C4033;
+    color: #6B8E23;
 }
 
 /* TEXTO GENERAL*/
