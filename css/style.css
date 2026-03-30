@@ -78,6 +78,7 @@ h1, h2 {
     text-align: center;
     gap: 15px;
 }
+
 .bloque .texto {
     max-width: 600px;
 }
