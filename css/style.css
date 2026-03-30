@@ -198,8 +198,8 @@ h1, h2 {
 
 /* LISTA ENTRENAMIENTO BASICO */
 .lista-basica {
-    list-style-type: circle; /* 👈 esto es lo que te piden */
-    text-align: left; /* mejor lectura */
+    list-style-type: circle; 
+    text-align: left; 
     margin-top: 10px;
     color: white;
 }
@@ -207,5 +207,5 @@ h1, h2 {
 .checkbox {
     display: flex;
     align-items: center;
-    gap: 3px; /* 👈 controla la separación */
+    gap: 1px; 
 }
