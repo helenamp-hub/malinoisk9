@@ -208,5 +208,5 @@ h1, h2 {
 .checkbox {
     display: flex;
     align-items: center;
-    gap: 1px; 
+    gap: 6px; 
 }
