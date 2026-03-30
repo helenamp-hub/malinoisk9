@@ -130,7 +130,7 @@ h1, h2 {
 .checkbox {
     display: flex;
     align-items: center;
-    gap: 6px; 
+    gap: 30px; 
 }
 
 /* MENSAJE CUANDO HAN SIDO ENVIADOS LOS DATOS */
