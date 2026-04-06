@@ -1,2 +1,5 @@
-# malinoisk9
-empresa dedicada al entrenamiento y cuidado de perros malinois 
+#DIRECCION DEL REPOSITORIO
+https://github.com/helenamp-hub/malinoisk9
+
+#DIRECCION DEL HOSTING
+https://helenamp-hub.github.io/malinoisk9/views/productos.html
